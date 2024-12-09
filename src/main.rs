@@ -4,7 +4,6 @@
 
 fn main() {
     print(hello());
-    print(goodbye());
 }
 
 fn print(s: String) -> () {
@@ -13,8 +12,4 @@ fn print(s: String) -> () {
 
 fn hello() -> String {
     return "Hello, world!".into();
-}
-
-fn goodbye() -> String {
-    return "Goodbye, world!".into();
 }
