@@ -10,7 +10,7 @@ fn main() {
     print(two_string)
 }
 
-fn print(s: String) -> () {
+fn print(s: String) {
     println!("{s}");
 }
 
